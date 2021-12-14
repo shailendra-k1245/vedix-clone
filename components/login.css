@@ -1,0 +1,74 @@
+* {
+	font-family: sans-serif;
+}
+#vedixLogo {
+	padding: 0.313rem;
+	padding-left: 13.75rem;
+}
+#signpForm {
+	width: 31.25rem;
+	margin: auto;
+	text-align: center;
+	margin-top: 3.125rem;
+}
+#signpForm > form > input {
+	width: 23.125rem;
+	height: 2.688rem;
+	margin-bottom: 0.825rem;
+	border-radius: 0.188rem;
+	border: 0.063rem solid gray;
+	padding-left: 0.625rem;
+}
+#signpForm > form > input:nth-child(3) {
+	background-color: #e78471;
+	font-weight: bold;
+	color: whitesmoke;
+	font-size: 1rem;
+	width: 24.063rem;
+	cursor: pointer;
+}
+#signpForm > form > input:nth-child(3):hover {
+	background-color: #f7b4a8;
+}
+#orPart {
+	display: flex;
+	gap: 1.063rem;
+	margin-top: 2rem;
+}
+#orPart > div:nth-child(1) {
+	border: 0.013rem solid gray;
+	width: 25rem;
+	height: 0rem;
+	margin-top: 0.5rem;
+	margin-left: 3.563rem;
+}
+#orPart > div:nth-child(3) {
+	border: 0.013rem solid gray;
+	width: 25rem;
+	height: 0rem;
+	margin-top: 0.5rem;
+	margin-right: 3.563rem;
+}
+#iconsSignup {
+	display: flex;
+	gap: 3.125rem;
+	justify-content: center;
+}
+#iconsSignup > * {
+	width: 3.75rem;
+	height: 3.75rem;
+}
+#iconsSignup > div > a > img {
+	width: 100%;
+}
+#newUserAndForgetPassword {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3.563rem;
+	margin-right: 3.563rem;
+}
+#newUserAndForgetPassword > div > a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #6b7686;
+}
