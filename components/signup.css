@@ -84,3 +84,7 @@
 	font-weight: bold;
 	margin-top: 1.875rem;
 }
+#alertMsg {
+	color: red;
+	font-size: 0.75rem;
+}

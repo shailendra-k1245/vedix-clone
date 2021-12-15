@@ -72,3 +72,8 @@
 	text-decoration: none;
 	color: #6b7686;
 }
+#alertMsg {
+	color: red;
+	font-size: 0.75rem;
+	margin-bottom: 0.7rem;
+}

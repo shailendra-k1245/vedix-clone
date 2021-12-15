@@ -15,14 +15,15 @@
 			<h2>
 				Log In
 			</h2>
+			<div id="alertMsg"></div>
 			<form>
-				<input type="email" placeholder="Email" />
-				<input type="password" placeholder="Password" />
-				<input type="button" value="Sign In" />
+				<input id="email" type="email" placeholder="Email" required />
+				<input id="password" type="password" placeholder="Password" required />
+				<input type="submit" value="Sign In" />
 			</form>
 			<div id="newUserAndForgetPassword">
 				<div>
-					<a href="#">New User?</a>
+					<a href="/signup.html">New User?</a>
 				</div>
 				<div>
 					<a href="#">Forgot Password?</a>
@@ -50,3 +51,5 @@
 		</div>
 	</body>
 </html>
+
+<script src="scripts/login.js"></script>
