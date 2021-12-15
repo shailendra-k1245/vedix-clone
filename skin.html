@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin</title>
+    <link rel="stylesheet" href="skin_style.css">
+    <script src="skin_script.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+
+        <img src="vedix_logo.PNG" alt="" id="logo">
+
+        <img src="quiz.PNG" alt="" id="quiz">
+
+        <div class='center_text'>Enter Your Name</div>
+
+        <input type="text" placeholder="Your Name" id="name">
+
+        <hr>
+        
+        <div class='center_text'>Select Your Age</div>
+
+        <div id="age_container">
+
+            <div onclick='getAge(12,this)' class="agediv">12-18</div>
+            <div onclick='getAge(18,this)' class="agediv">18-25</div>
+            <div onclick='getAge(26,this)' class="agediv">26-35</div>
+            <div onclick='getAge(36,this)' class="agediv">36-45</div>
+            <div onclick='getAge(46,this)' class="agediv">46-55</div>
+            <div onclick='getAge(55,this)' class="agediv">55+</div>
+
+
+        </div>
+
+        <hr/>
+
+        <div class='center_text'>Select Your Gender</div>
+
+        <div id="gender_container">
+
+            <div onclick='getGender("M",this)' class='genderdiv'>Male</div>
+            <div onclick='getGender("F",this)' class='genderdiv'>Female</div>
+            
+
+
+        </div>
+
+        <hr>
+
+        <div class='center_text'>What Problem With Skin Concerns You Most?</div>
+
+        <div id="skin_concerns">
+
+            <div onclick='getSkinConcerns("Acne",this)' class='skindiv'>Acne</div>
+            <div onclick='getSkinConcerns("Dark spots",this)' class='skindiv'>Dark spots</div>
+            <div onclick='getSkinConcerns("Tan",this)' class='skindiv'>Tan </div>
+            <div onclick='getSkinConcerns("Aging",this)' class='skindiv'>Aging</div>
+
+
+        </div>
+
+        <hr>
+
+        <div id="continue" onclick="getData()">Continue</div>
+
+    </div>
+</body>
+</html>
+

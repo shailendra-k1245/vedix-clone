@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        width: 35%;
+        height:1600px;
+        margin:auto;
+        }
+
+    #logo{
+        width: 24%;
+        margin-top:1%;
+        margin-left: 38%;
+        }
+
+    #quiz{
+        margin-top:2%;
+        }
+
+    .center_text{
+        font-size: 1.2rem;
+        text-align:center;
+        margin-top:3%;
+        font-weight:bold;
+        }
+
+    h2{
+        text-align:center;
+        }
+    hr{
+        border: 1px solid #E8E8E8;
+        width: 95%;
+        margin: 5%;
+        
+    
+        }
+
+    #skin_patches_container{
+        display: flex;
+        flex-direction: column;
+        margin-top:2%;
+    }
+    
+    #skin_patches_container > div{
+        border: 1px solid #CCCCCC;
+        padding: 2%;
+        margin:1% auto;
+        text-align:center;
+        width: 80%;
+    }
+
+    #time_container{
+        display: flex;
+        flex-direction: column;
+        margin-top:2%;
+    }
+    
+    #time_container > div{
+        border: 1px solid #CCCCCC;
+        padding: 2%;
+        margin:1% auto;
+        text-align:center;
+        width: 80%;
+        
+    }
+
+    #skin_type_container{
+        display: flex;
+        flex-direction: column;
+        margin-top:2%;
+    }
+    
+    #skin_type_container > div{
+        border: 1px solid #CCCCCC;
+        padding: 2%;
+        margin:1% auto;
+        text-align:center;
+        width: 80%;
+        
+    }
+
+    #skin_feel_container{
+        display: flex;
+        flex-direction: column;
+        margin-top:2%;
+    }
+    
+    #skin_feel_container > div{
+        border: 1px solid #CCCCCC;
+        padding: 2%;
+        margin:1% auto;
+        text-align:center;
+        width: 80%;
+        
+    }
+
+    #buttons_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:80%;
+        margin:5% auto;
+    }
+
+    #buttons_container> div{
+    /* width: 25%; */
+    padding-top:2%;
+    padding-bottom: 2%;
+    background-color: #E78471;
+    color: #F6F6F6;
+    border: 1px solid #414042;
+    font-size: 1.1rem;
+    font-weight:lighter;
+    padding-left: 4%;
+    padding-right:4%;
+    /* margin:3% auto; */
+    /* border-radius: 4px; */
+    
+}
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <img src="vedix_logo.PNG" alt="" id="logo">
+
+        <img src="quiz2.PNG" alt="" id="quiz">
+
+        <h2>Skin Profile</h2>
+
+        <div class='center_text'>How Would You Describe Your Dark Patches On Your Skin?</div>
+
+       
+
+        <div id="skin_patches_container">
+            
+            <div>A few, small-sized</div>
+            <div>Few Coin sized patches on the skin</div>
+            <div>1-2 Big patches</div>
+            <div>Across the face</div>
+
+        </div>
+
+        <hr>
+
+        <div class='center_text'>How Long Has The Skin Patch Existed?</div>
+
+        <div id="time_container">
+
+            <div>Since 1-2 months</div>
+            <div>More than 6 months</div>
+            <div>Since more than a year</div>
+            <div>It’s a birthmark</div>
+
+
+
+        </div>
+
+        <hr>
+
+        <div class='center_text'>What Is Your Skin Type?</div>
+
+        <div id="skin_type_container">
+
+            <div>Dry</div>
+            <div>Oily</div>
+            <div>Normal</div>
+            <div>Sensitive to light and products</div>
+
+
+
+        </div>
+
+        <hr>
+
+        <div class='center_text'>What Does Your Skin Usually Feel Like At Midday?</div>
+
+        <div id="skin_feel_container">
+
+            <div>Fresh and well hydrated</div>
+            <div>Smooth and bright</div>
+            <div>Neither smooth nor rough</div>
+            <div>Rough and dull</div>
+
+
+        </div>
+
+
+        <div id="buttons_container">
+
+
+            <div id="continue" onclick="getData()">PREVIOUS</div>
+            <div id="continue" onclick="getData()">COMPLETE</div>
+
+
+
+        </div>
+
+
+    </div>
+</body>
+</html>
