@@ -5,13 +5,13 @@
 	padding: 0.313rem;
 	padding-left: 13.75rem;
 }
-#signpForm {
+#loginForm {
 	width: 31.25rem;
 	margin: auto;
 	text-align: center;
 	margin-top: 3.125rem;
 }
-#signpForm > form > input {
+#loginForm > form > input {
 	width: 23.125rem;
 	height: 2.688rem;
 	margin-bottom: 0.825rem;
@@ -19,7 +19,7 @@
 	border: 0.063rem solid gray;
 	padding-left: 0.625rem;
 }
-#signpForm > form > input:nth-child(3) {
+#loginForm > form > input:nth-child(3) {
 	background-color: #e78471;
 	font-weight: bold;
 	color: whitesmoke;
@@ -27,7 +27,7 @@
 	width: 24.063rem;
 	cursor: pointer;
 }
-#signpForm > form > input:nth-child(3):hover {
+#loginForm > form > input:nth-child(3):hover {
 	background-color: #f7b4a8;
 }
 #orPart {
